@@ -19,4 +19,4 @@ My research is focused on dialogue understanding, interactive systems, few-shot 
 
 Previously, I was a software engineer at [Apptio](https://apptio.com), and before that a computational research intern at the [Institute for Systems Biology](https://isbscience.org/), where I helped develop methods for automatic metabolic reconstruction of microbes with [Prof. Nathan Price](https://isbscience.org/bio/nathan-price/).
 I also completed my BS in computer science at University of Washington. 
-Outside of work and research I enjoy hiking, mountaineering, skiing and otherwwise being outdoors!
+Outside of work and research I enjoy hiking, mountaineering, skiing and otherwise being outdoors!
