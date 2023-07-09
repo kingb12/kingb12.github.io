@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: he/him -- PhD Student at University of California, Santa Cruz
+subtitle: he/him -- PhD Student at University of California, Santa Cruz - bking2 (at) ucsc (dot) edu
 
 profile:
   align: left
