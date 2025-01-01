@@ -1,115 +1,74 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{king-flanigan-2024-unsupervised,
+    title = "Unsupervised End-to-End Task-Oriented Dialogue with {LLM}s: The Power of the Noisy Channel",
+    author = "King, Brendan  and
+      Flanigan, Jeffrey",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.473",
+    pages = "8283--8300",
+    selected = {true},
+    abstract = "Training task-oriented dialogue systems typically requires turn-level annotations for interacting with their APIs: e.g. a dialogue state and the system actions taken at each step. These annotations can be costly to produce, error-prone, and require both domain and annotation expertise. With advances in LLMs, we hypothesize that unlabeled data and a schema definition are sufficient for building a working task-oriented dialogue system, completely unsupervised. We consider a novel unsupervised setting of only (1) a well-defined API schema (2) a set of unlabeled dialogues between a user and agent. We propose an innovative approach using expectation-maximization (EM) that infers turn-level annotations as latent variables using a noisy channel model to build an end-to-end dialogue agent. Evaluating our approach on the MultiWOZ benchmark, our method more than doubles the dialogue success rate of a strong GPT-3.5 baseline.",
 }
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{king-flanigan-2023-diverse,
+    title = "Diverse Retrieval-Augmented In-Context Learning for Dialogue State Tracking",
+    author = "King, Brendan  and
+      Flanigan, Jeffrey",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.344",
+    doi = "10.18653/v1/2023.findings-acl.344",
+    pages = "5570--5585",
+    selected = {true},
+    abstract = "There has been significant interest in zero and few-shot learning for dialogue state tracking (DST) due to the high cost of collecting and annotating task-oriented dialogues. Recent work has demonstrated that in-context learning requires very little data and zero parameter updates, and even outperforms trained methods in the few-shot setting. We propose RefPyDST, which advances the state of the art with three advancements to in-context learning for DST.First, we formulate DST as a Python programming task, explicitly modeling language coreference as variable reference in Python. Second, since in-context learning depends highly on the context examples, we propose a method to retrieve a diverse set of relevant examples to improve performance. Finally, we introduce a novel re-weighting method during decoding that takes into account probabilities of competing surface forms, and produces a more accurate dialogue state prediction. We evaluate our approach using MultiWOZ and achieve state-of-the-art multi-domain joint-goal accuracy in zero and few-shot settings.",
 }
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{Richards2016MightyMM,
+  title={Mighty morphing metabolic models: leveraging manual curations for automatic metabolic reconstruction of clades},
+  author={Matthew A. Richards and Brendan King and Evangelos Simeonidis and Nathan D. Price},
+  journal={F1000Research},
+  year={2016},
+  volume={5}
 }
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@inproceedings{cai_dda_2023,
+  author    = {Jon Cai and Brendan King and Margaret Perkoff  and Shiran Dudy  and Jie Cao  and Marie Grace  and Natalia Wojarnik  and Ananya Ganesh  and James H. Martin  and Martha S. Palmer  and Marilyn A. Walker and Jeffrey Flanigan},
+  title     = {Dependency Dialogue Acts — Annotation Scheme and Case Study},
+  booktitle = {The 13th International Workshop on 
+Spoken Dialogue Systems Technology, {IWSDS} 2023, Los Angeles, United States},
+  year      = {2023},
+  month = {february},
+  selected = {true},
+  pdf={https://arxiv.org/pdf/2302.12944.pdf}
 }
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@article{king_probannoweb_2018,
+	title = {{ProbAnnoWeb} and {ProbAnnoPy}: probabilistic annotation and gap-filling of metabolic reconstructions},
+	volume = {34},
+	issn = {1367-4811},
+	shorttitle = {{ProbAnnoWeb} and {ProbAnnoPy}},
+	doi = {10.1093/bioinformatics/btx796},
+	abstract = {SUMMARY: Gap-filling is a necessary step to produce quality genome-scale metabolic reconstructions capable of flux-balance simulation. Most available gap-filling tools use an organism-agnostic approach, where reactions are selected from a database to fill gaps without consideration of the target organism. Conversely, our likelihood based gap-filling with probabilistic annotations selects candidate reactions based on a likelihood score derived specifically from the target organism's genome. Here, we present two new implementations of probabilistic annotation and likelihood based gap-filling: a web service called ProbAnnoWeb, and a standalone python package called ProbAnnoPy.
+AVAILABILITY AND IMPLEMENTATION: Our tools are available as a web service with no installation needed (ProbAnnoWeb) at probannoweb.systemsbiology.net, and as a local python package implementation (ProbAnnoPy) at github.com/PriceLab/probannopy.
+CONTACT: evangelos.simeonidis@systemsbiology.org or nathan.price@systemsbiology.org.
+SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.},
+	language = {eng},
+	number = {9},
+	journal = {Bioinformatics (Oxford, England)},
+	author = {King, Brendan and Farrah, Terry and Richards, Matthew A. and Mundy, Michael and Simeonidis, Evangelos and Price, Nathan D.},
+	month = may,
+	year = {2018},
+	pmid = {29267848},
+	keywords = {Genome, Likelihood Functions, Software},
+	pages = {1594--1596},
+	file = {King et al_2018_ProbAnnoWeb and ProbAnnoPy.pdf:/Users/bking/Zotero/storage/A25JTAXY/King et al_2018_ProbAnnoWeb and ProbAnnoPy.pdf:application/pdf},
+  selected = {true}
 }
