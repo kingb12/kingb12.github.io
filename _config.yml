@@ -4,21 +4,20 @@
 
 title: Brendan King # the website title (if blank, full name will be used instead)
 first_name: Brendan
-middle_name: 
+middle_name:
 last_name: King
 email: bking2@ucsc.edu
 
 description: My personal website.
 contact_note: >
-  You can reach me at bking2 at ucsc dot edu. 
+  You can reach me at bking2 at ucsc dot edu.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: nlp, dialogue, computer science   # add your own keywords or leave empty
-
+keywords: nlp, dialogue, computer science # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: favicon  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://kingb12.github.io # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -106,7 +105,7 @@ related_blog_posts:
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 giscus:
   repo: kingb12/kingb12.github.io # <your-github-user-name>/<your-github-repo-name>
-  repo_id: MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ==  # leave empty or specify your repo_id (see https://giscus.app/)
+  repo_id: MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ== # leave empty or specify your repo_id (see https://giscus.app/)
   category: Comments # name of the category under which discussions will be created
   category_id: # leave empty or specify your category_id (see https://giscus.app/)
   mapping: title # identify discussions by post title
