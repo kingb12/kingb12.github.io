@@ -19,7 +19,7 @@ on:
       - "!.github/workflows/lighthouse-badger.yml"
       - "!.github/workflows/prettier.yml"
       - "!lighthouse_results/**"
-      - "!_posts_examples_not_rendered/**"
+      - "!_posts_examples_not_rendered/**/*"
   pull_request:
     branches:
       - master
