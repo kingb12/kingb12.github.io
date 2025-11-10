@@ -15,8 +15,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 I'm a PhD candidate in Natural Language Processing, working with [Prof. Jeffrey Flanigan](https://jflanigan.github.io/).
-My research is focused on dialogue understanding, interactive systems, few-shot NLP methods, and continual learning.
-
+My research is focused on task-oriented dialogue methods, methods for dialogue with language agents, and multi-party dialgue understanding.
 Previously, I was a software engineer at [Apptio](https://apptio.com), and before that a computational research intern at the [Institute for Systems Biology](https://isbscience.org/), where I helped develop methods for automatic metabolic reconstruction of microbes with [Prof. Nathan Price](https://scholar.google.com/citations?user=8Ly8BO4AAAAJ&hl=en).
 I also completed my BS in computer science at University of Washington.
 Outside of work and research I enjoy hiking, mountaineering, skiing and otherwise being outdoors!
