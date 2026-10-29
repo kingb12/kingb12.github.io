@@ -15,7 +15,8 @@ social: true # includes social icons at the bottom of the page
 ---
 
 I'm a PhD candidate in Natural Language Processing, working with [Prof. Jeffrey Flanigan](https://jflanigan.github.io/).
-My research is focused on task-oriented dialogue methods, methods for dialogue with language agents, and multi-party dialgue understanding.
+My research aims to build open, adaptable AI agents that work interactively with people, especially coding agents, dialogue systems, and agents that use tools.
+This has included benchmarking coding agents that are guided through dialogue, few-shot and unsupervised methods for task-oriented dialogue, confidence estimates for LLM agents that humans can audit, and modeling the structure of multi-party conversations.
 Previously, I was a software engineer at [Apptio](https://apptio.com), and before that a computational research intern at the [Institute for Systems Biology](https://isbscience.org/), where I helped develop methods for automatic metabolic reconstruction of microbes with [Prof. Nathan Price](https://scholar.google.com/citations?user=8Ly8BO4AAAAJ&hl=en).
 I also completed my BS in computer science at University of Washington.
 Outside of work and research I enjoy hiking, mountaineering, skiing and otherwise being outdoors!
